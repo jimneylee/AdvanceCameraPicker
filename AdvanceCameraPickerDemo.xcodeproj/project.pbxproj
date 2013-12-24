@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE3FCBE11869B95300CB2C85 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CE3FCBE01869B95300CB2C85 /* README.md */; };
+		CE3FCBE51869B9A800CB2C85 /* custom_picker.png in Resources */ = {isa = PBXBuildFile; fileRef = CE3FCBE31869B9A800CB2C85 /* custom_picker.png */; };
+		CE3FCBE61869B9A800CB2C85 /* hack_system_picker.png in Resources */ = {isa = PBXBuildFile; fileRef = CE3FCBE41869B9A800CB2C85 /* hack_system_picker.png */; };
 		CE5CB5561869AF1300F63BAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5CB5551869AF1300F63BAF /* Foundation.framework */; };
 		CE5CB5581869AF1300F63BAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5CB5571869AF1300F63BAF /* CoreGraphics.framework */; };
 		CE5CB55A1869AF1300F63BAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5CB5591869AF1300F63BAF /* UIKit.framework */; };
@@ -46,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE3FCBE01869B95300CB2C85 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		CE3FCBE31869B9A800CB2C85 /* custom_picker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom_picker.png; sourceTree = "<group>"; };
+		CE3FCBE41869B9A800CB2C85 /* hack_system_picker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hack_system_picker.png; sourceTree = "<group>"; };
 		CE5CB5521869AF1300F63BAF /* AdvanceCameraPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvanceCameraPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5CB5551869AF1300F63BAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE5CB5571869AF1300F63BAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -107,9 +113,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE3FCBE21869B9A800CB2C85 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FCBE31869B9A800CB2C85 /* custom_picker.png */,
+				CE3FCBE41869B9A800CB2C85 /* hack_system_picker.png */,
+			);
+			path = Screenshots;
+			sourceTree = SOURCE_ROOT;
+		};
 		CE5CB5491869AF1300F63BAF = {
 			isa = PBXGroup;
 			children = (
+				CE3FCBE01869B95300CB2C85 /* README.md */,
 				CE5CB58A1869AF3400F63BAF /* Vendor */,
 				CE5CB5B71869AF9A00F63BAF /* AdvanceCameraPicker */,
 				CE5CB55B1869AF1300F63BAF /* AdvanceCameraPickerDemo */,
@@ -156,6 +172,7 @@
 		CE5CB55C1869AF1300F63BAF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CE3FCBE21869B9A800CB2C85 /* Screenshots */,
 				CE5CB59F1869AF3A00F63BAF /* Images */,
 				CE5CB55D1869AF1300F63BAF /* AdvanceCameraPickerDemo-Info.plist */,
 				CE5CB55E1869AF1300F63BAF /* InfoPlist.strings */,
@@ -317,9 +334,12 @@
 				CE5CB56E1869AF1300F63BAF /* Images.xcassets in Resources */,
 				CE5CB5AF1869AF3A00F63BAF /* front-camera@2x.png in Resources */,
 				CE5CB5AB1869AF3A00F63BAF /* flash-off@2x.png in Resources */,
+				CE3FCBE51869B9A800CB2C85 /* custom_picker.png in Resources */,
 				CE5CB5AD1869AF3A00F63BAF /* flash-on@2x.png in Resources */,
 				CE5CB5A91869AF3A00F63BAF /* flash-auto@2x.png in Resources */,
+				CE3FCBE11869B95300CB2C85 /* README.md in Resources */,
 				CE5CB5601869AF1300F63BAF /* InfoPlist.strings in Resources */,
+				CE3FCBE61869B9A800CB2C85 /* hack_system_picker.png in Resources */,
 				CE5CB5AE1869AF3A00F63BAF /* front-camera.png in Resources */,
 				CE5CB5691869AF1300F63BAF /* Main.storyboard in Resources */,
 				CE5CB5AC1869AF3A00F63BAF /* flash-on.png in Resources */,
@@ -557,6 +577,7 @@
 				CE5CB5861869AF1300F63BAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE5CB5871869AF1300F63BAF /* Build configuration list for PBXNativeTarget "AdvanceCameraPickerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -565,6 +586,7 @@
 				CE5CB5891869AF1300F63BAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
