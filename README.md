@@ -6,5 +6,5 @@ AdvanceCameraPicker
 ===================
 Screenshots
 
-![image](https://github.com/jimneylee/AdvanceCameraPicker/raw/master/Screenshots/ErrorResolve/hack_system_picker.png)
-![image](https://github.com/jimneylee/AdvanceCameraPicker/raw/master/Screenshots/ErrorResolve/custom_picker.png)
+![image](https://github.com/jimneylee/AdvanceCameraPicker/raw/master/Screenshots/hack_system_picker.png)
+![image](https://github.com/jimneylee/AdvanceCameraPicker/raw/master/Screenshots/custom_picker.png)
